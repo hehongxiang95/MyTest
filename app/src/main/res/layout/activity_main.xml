@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.mytest.MainActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:gravity="center"
+        android:background="@color/colorPrimary"
+        android:text="Android测试">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/btn_Layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Layout" />
+
+    <Button
+        android:id="@+id/btn_Scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ScrollView" />
+
+    <Button
+        android:id="@+id/btn_viewgroup_frame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="重构FrameLayout" />
+
+    <Button
+        android:id="@+id/btn_viewgroup_relative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="重构RelativeLayout" />
+
+    <Button
+        android:id="@+id/btn_Flow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="流式布局" />
+
+    <Button
+        android:id="@+id/btn_Water"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="瀑布流" />
+
+    <Button
+        android:id="@+id/btn_Recycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="重构RecyclerView" />
+
+</LinearLayout>

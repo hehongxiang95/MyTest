@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomFrameLayout">
+        <attr name="verticalspacing" format="dimension"/>
+        <attr name="horizontalspacing" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="CustomFrameLayout_LayoutParams">
+        <attr name="layout_paddingleft" format="dimension"/>
+        <attr name="layout_paddinTop" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="StaggeredGridView">
+        <attr name="drawSelectorOnTop" format="boolean" />
+        <attr name="numColumns" format="integer" />
+        <attr name="itemMargin" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="CustomLayoutLP">
+        <attr name="android:layout_gravity" />
+        <attr name="layout_position">
+            <enum name="middle" value="0" />
+            <enum name="left" value="1" />
+            <enum name="right" value="2" />
+        </attr>
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.mytest.layout.LayoutActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:gravity="center"
+        android:background="@color/colorPrimary"
+        android:text="布局">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/btnLinear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LinearLayout"/>
+    <Button
+        android:id="@+id/btnRe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RelativeLayout"/>
+    <Button
+        android:id="@+id/btnFrame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FrameLayout"/>
+    <Button
+        android:id="@+id/btnGrid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GridLayout"/>
+
+
+</LinearLayout>
